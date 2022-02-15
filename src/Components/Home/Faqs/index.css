@@ -1,0 +1,86 @@
+.faqs_section {
+  position: relative;
+  background-color: #fee77f;
+  padding: 120px 130px;
+}
+
+@media (max-width: 768px){
+  .faqs_section{
+    padding: 100px 15px;
+  }
+  .wheat-img{
+    display: none;
+  }
+}
+
+.wheat-img{
+  position: absolute;
+  top: -26px;
+  left: 0;
+  width: 100%;
+}
+
+@media (max-width: 992px){
+  .faq-heading{
+    padding-bottom: 100px;
+  }
+}
+
+.row-custom{
+  align-items: center;
+  width: 100%;
+}
+
+.faq-heading{
+  font-family: "Tanker-Regular";
+  font-size: 60px;
+  line-height: 82px;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+@media (max-width: 575px){
+  .faq-heading{
+    font-size: 40px;
+    line-height: 56px;
+  }
+}
+
+.card{
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.5px solid #686161;
+  border-radius: 0;
+}
+
+.card:not(:last-child){
+  margin-bottom: 24px;
+}
+
+.card-header{
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  padding: 0;
+}
+
+.card-link{
+  display: block;
+  font-family: "Tanker-Regular";
+  font-size: 26px;
+  letter-spacing: 1px;
+  padding-bottom: 24px;
+  color: #000;
+}
+
+.card-link:hover{
+  color: #000;
+}
+
+.card-body{
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  line-height: 32px;
+  padding: 0 0 24px 0;
+  color: #000;
+}

@@ -1,0 +1,54 @@
+.team_section {
+  position: relative;
+  background-color: #b7fba3;
+  padding: 120px 130px;
+}
+
+@media (max-width: 768px){
+  .team_section{
+    padding: 100px 15px;
+  }
+}
+
+.team-heading{
+  font-family: "Tanker-Regular";
+  font-size: 60px;
+  line-height: 82px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 55px;
+}
+
+@media (max-width: 575px){
+  .team-heading{
+    font-size: 40px;
+    line-height: 56px;
+  }
+}
+
+.col-team-otr{
+  text-align: center;
+}
+
+.team-twiter-linkk{
+  font-family: "Tanker-Regular";
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 12px;
+}
+
+.team-dsignation{
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  line-height: 24px;
+  color: #666161;
+  margin-bottom: 12px;
+}
+
+.team-desc{
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+}

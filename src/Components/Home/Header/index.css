@@ -1,0 +1,55 @@
+#main_header {
+  background-image: url("../../../assests/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 140px 150px;
+  height: 720px;
+}
+
+@media (max-width: 992px){
+  #main_header{
+    height: auto;
+  }
+}
+
+@media (max-width: 768px){
+  #main_header{
+    padding: 100px 15px;
+  }
+}
+
+.header-heading {
+  font-family: "Tanker-Regular";
+  font-size: 100px;
+  line-height: 118px;
+  letter-spacing: 1px;
+  color: #000;
+  margin-bottom: 55px;
+}
+
+@media (max-width: 1200px){
+  .header-heading br{
+    display: none;
+  }
+}
+
+@media (max-width: 575px){
+  .header-heading{
+    font-size: 60px;
+    line-height: 82px;
+  }
+}
+
+.header-desc {
+  font-family: "Poppins-Regular";
+  font-size: 18px;
+  line-height: 34px;
+  color: #000;
+}
+
+@media (max-width: 992px){
+  .header-desc br{
+    display: none;
+  }
+}

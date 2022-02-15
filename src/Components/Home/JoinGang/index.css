@@ -1,0 +1,59 @@
+.joinGang_section {
+  position: relative;
+  background-color: #ffc3df;
+  padding-top: 72px;
+}
+
+.joingang-heading{
+  font-family: "Tanker-Regular";
+  font-size: 60px;
+  line-height: 82px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 575px){
+  .joingang-heading{
+    font-size: 40px;
+    line-height: 56px;
+  }
+}
+
+.joingang-btn-otr{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.twitter-btn{
+  font-family: "Poppins-Regular";
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  background-color: #1CA1F2;
+  color: #fff;
+  padding: 14px 16px;
+  border-radius: 50px;
+  border: none;
+}
+
+.twitter-btn span{
+  margin-right: 8px;
+}
+
+.row-joingang{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.joingang-col{
+  padding: 0;
+}
+
+.joingang-img{
+  width: 100%;
+}
